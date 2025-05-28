@@ -1,5 +1,5 @@
 # Base stage for common dependencies
-FROM python:3.11-slim as python-base
+FROM python:3.13.3-slim as python-base
 WORKDIR /app
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
