@@ -9,3 +9,4 @@ sqlalchemy
 reportlab
 pyclamd
 PyJWT
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
